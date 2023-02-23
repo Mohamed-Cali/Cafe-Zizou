@@ -1,0 +1,271 @@
+.menu {
+  background-color: white;
+  margin-bottom: 0rem;
+}
+
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.menu-title-section{
+  background-image: url('/images/image8.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  width: 100%;
+  height: 25vh;
+  box-shadow: 0 2px 0 rgb(245, 241, 241);
+  border-radius: 2px;
+}
+
+.banner-gradient {
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);  
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      to top,
+      rgba(219, 215, 215, 0.1) 0,
+      rgba(219, 215, 215, 0.1) 60%,
+      rgba(219, 215, 215, 0.1) 100%
+  );
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 1rem 0 2rem;
+  background-color: #ffffff;
+  height: 100vh;
+  margin-top: 3rem;
+  width: 25%;
+  position: sticky;
+  top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.menu-nav ul {
+  list-style: none;
+  padding: 20px 20px 0 2rem;
+  margin: 0;
+  border-left: 1px solid black;
+}
+
+.menu-nav li {
+  margin-bottom: 1rem;
+}
+
+.menu-nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+.category {
+  flex: 5;
+}
+
+.category-name {
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.items div h3 {
+  margin: 0;
+}
+
+.items div div {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.items div h3 {
+  font-size: 1.2rem;
+}
+
+.items div div p {
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 650px) {
+  .menu-container {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .menu-nav {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .items-desc {
+    margin-left: 1rem;
+  }
+
+  .items div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .category {
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .category-name {
+    margin: 0.8rem;
+  }
+  .category-name2 {
+    margin: 0.8rem;
+  }
+  .category-name3 {
+    margin: 0.8rem;
+  }
+
+  .category-name::after {
+    content: '+';
+    float: right;
+  }
+  .category-name2::after {
+    content: '+';
+    float: right;
+  }
+  .category-name3::after {
+    content: '+';
+    float: right;
+  }
+
+  .category-items {
+    display: none;
+  }
+
+  .category-name.active::after {
+    content: '-';
+    float: right;
+  }
+  .category-name2.active::after {
+    content: '-';
+    float: right;
+  }
+  .category-name2.active::after {
+    content: '-';
+    float: right;
+  }
+
+  .category-name.active + .items {
+    display: block;
+  }
+  .category-name2.active + .items {
+    display: block;
+  }
+  .category-name3.active + .items {
+    display: block;
+  }
+}
+
+@media (min-width: 651px) {
+    .menu-container {
+      display: flex;
+      justify-content: center;
+    }
+
+}
+
+@media (min-width: 650px) {
+  .menu-items {
+    border: 4px solid #969494;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white; 
+    margin: 3rem;
+    width: 60%;
+  }
+
+  .items div div {
+    font-size: 1.1rem;
+  }
+
+  .items div div p {
+    margin-right: 4rem;
+  }
+
+
+  #frappe-item > div > p {
+    margin-right: 2rem;
+  }
+  
+
+}
+
+@media (min-width: 1500px) {
+  .menu-container {
+    margin-inline: auto;
+    max-width: 1500px;
+  }
+  
+
+}
+
+@media (max-width: 900px) {
+  
+  
+  .menu-nav a {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+}
+
+@media (max-height: 750px) {
+  
+  .menu-nav {
+    overflow: auto;
+  }
+  
+  .menu-nav::-webkit-scrollbar {
+    display: none;
+  }
+}

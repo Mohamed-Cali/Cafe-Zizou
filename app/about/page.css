@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .about-section {
+    background-color: rgb(239, 239, 185);
+    width: 100%;
+    margin: 20px 30px;
+    border-radius: 45px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    margin: 20px 10% 40px 5%;
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imageContainer {
+    width: 300px; /* set a fixed width */
+    height: 200px; /* set a fixed height */
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make the image fill the container while retaining aspect ratio */
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .imageContainer {
+      width: 90%;
+      height: 300px; /* Increase height to prevent images from being too small on smaller screens */
+    }
+  }
+
+  @media (min-width:901px) {
+    .about-section {
+        margin: 20px 20% 30px 20%;
+      }
+  }
+  
