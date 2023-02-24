@@ -14,7 +14,7 @@ export default function Home() {
       <div className="homePage">
         
         <div className='homePage_gradient'>
-          <h1 className='welcome'>Welcome to Cafe Zizou Twickenham
+          <h1 className='welcome'>Welcome to Cafe Zizou
           </h1>
           <a href='/menu'>
             <h1 className='menuBtn'> View our Menu</h1>
