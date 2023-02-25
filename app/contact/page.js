@@ -32,6 +32,13 @@ function Contact() {
             </a>
           </div>
         </div>
+        <div className='opening-times'>
+        <h2>Opening Times</h2>
+            <p>Monday to Saturday</p>
+            <p id='time'>7am - 7pm</p>
+            <p>Sunday</p>
+            <p id='time'>8am - 6pm</p>
+        </div>
         <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.6781392311523!2d-0.3320127839782784!3d51.44570457962506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760c89f18c6771%3A0xa936b31f64b03ed4!2sCafe%20Zizou!5e0!3m2!1sen!2suk!4"></iframe>
 
       </main>
