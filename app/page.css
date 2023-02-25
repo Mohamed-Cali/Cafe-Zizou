@@ -152,4 +152,26 @@
 }
 
 
+@media (max-width: 1000px) {
+    .menuBtn {
+        bottom: 20%;
+     
+     }
+     
+     .orderBtn {
+        bottom: 20%;
+     }
+}
+
+@media (max-width: 1300px) {
+    .menuBtn {
+        bottom: 15%;
+     
+     }
+     
+     .orderBtn {
+        bottom: 15%;
+     }
+}
+
 

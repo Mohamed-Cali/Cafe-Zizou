@@ -76,6 +76,10 @@
   padding-top: 1.5rem;
 }
 
+.menu-items {
+  background-color: white;
+}
+
 .category {
   flex: 5;
 }
@@ -269,5 +273,16 @@ body::-webkit-scrollbar {
   .menu-nav::-webkit-scrollbar {
     display: none;
   }
+}
+
+.topping {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(184, 47, 47);
+  margin-left: 1rem;
+}
+
+.items p {
+  margin-left: 1rem;
 }
 
