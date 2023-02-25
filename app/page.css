@@ -151,18 +151,6 @@
      }
 }
 
-
-@media (max-width: 1000px) {
-    .menuBtn {
-        bottom: 25%;
-     
-     }
-     
-     .orderBtn {
-        bottom: 25%;
-     }
-}
-
 @media (max-width: 1300px) {
     .menuBtn {
         bottom: 15%;
@@ -173,5 +161,17 @@
         bottom: 15%;
      }
 }
+
+@media (max-width: 1000px) {
+    .menuBtn {
+        bottom: 20%;
+     
+     }
+     
+     .orderBtn {
+        bottom: 20%;
+     }
+}
+
 
 
