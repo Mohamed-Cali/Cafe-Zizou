@@ -213,6 +213,7 @@
 .subpage-content-container{
     height: 100%;
     width: 20vw;
+    padding-left: 2rem;
 }
 .subpage-title{
     font-size: clamp(4rem, 5vw, 20rem);
@@ -236,6 +237,7 @@
 }
 .subpage-content-container-2{
     width: 40vw;
+    padding-left: 2rem;
 }
 .subpage-content-container-2 h1{
     margin: 5vh 0;
