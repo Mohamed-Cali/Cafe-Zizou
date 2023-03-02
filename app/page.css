@@ -224,7 +224,7 @@
 }
 
 .subpage-wrapper-2{
-    width: 100%;
+    width: auto;
     display: flex;
     gap: clamp(3rem, 4vw, 20rem);
     padding: 5rem 0;
