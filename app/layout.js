@@ -52,7 +52,6 @@ export default function RootLayout({ children }) {
             <div className='footer-content'>
               <div className='top-footer'>
                 <h1 className='name-footer'>Café Zizou</h1>
-                <Image src="/images/logo2.gif" alt='' className='image-footer' width={22} height={22}/>
               </div>
               <div className='justEat'>
               

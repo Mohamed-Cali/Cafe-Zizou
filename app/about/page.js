@@ -30,11 +30,7 @@ export default function page() {
           </div>
           <div className='about-section'>
             <p className={catamaran.className}>
-              We take pride in our beverages as well, so be sure to start your meal with a delicious espresso, tea, or smoothie. Our friendly staff is always ready to provide you with great service and make your experience with us enjoyable.
-
-              At Cafe Zizou, we believe that quality doesn't have to come with a high price tag. That's why our prices are affordable and offer great value for the quality of our food and service.
-
-              Don't just take our word for it - our 4.4 rating on Google speaks for itself! We invite you to come and experience Cafe Zizou for yourself.
+            Come try our delicious drinks! Our friendly staff is always ready to serve you and make your experience enjoyable. At Cafe Zizou, quality doesn't have to be expensive. Our affordable prices offer great value for our food and service. Don't just take our word for it - see our 4.4 Google rating. Come visit Cafe Zizou and experience it yourself!
           </p>
         </div>
           <div className='imageContainer'>

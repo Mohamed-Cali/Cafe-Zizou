@@ -10,19 +10,17 @@ body {
   padding: 0;
 }
 
-.nav {
-  height: 13vh;
-  cursor: pointer;
-}
+
 .navbar {
   display: flex;
   align-items: center;
   gap: 5rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(43, 43, 58);
   color: rgb(197, 166, 87);
   padding: 0 1.2rem 0 1.2rem;
   width: 100%;
-  height: 100%;
+  height: 8vh;
+  max-height: auto;
   box-shadow: 0 2px 0 rgb(245, 241, 241);
   margin-bottom: 0;
 }
@@ -84,7 +82,7 @@ body {
 
 .toggle-button {
   position: absolute;
-  top: 0.9rem;
+  top: 0.7rem;
   right: 1.8rem;
   display: none;
   flex-direction: column;
@@ -108,6 +106,11 @@ body {
   .toggle-button {
     display: flex;
   }
+
+
+.navbar {
+  height: 100%;
+}
 
   .navbar-links {
     display: none;
@@ -177,9 +180,9 @@ body {
 }
 
 footer {
-  background-color: rgb(247, 245, 245);
-  height: auto;
-  width: 100w;
+  background-color: rgb(43, 43, 58);
+  height: 8vh;
+  width: 100vw;
   color: rgb(197, 166, 87);
   position: relative;
 }
@@ -272,5 +275,9 @@ height: 35px;
 
   .availableOn {
     padding-top: 0.6rem;
+  }
+
+  footer {
+    height: auto;
   }
 }
