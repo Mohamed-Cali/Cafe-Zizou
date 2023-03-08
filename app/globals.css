@@ -190,6 +190,7 @@ footer {
   width: 100vw;
   color: rgb(197, 166, 87);
   position: relative;
+  min-height: 70px;
 }
 
 .footer-content {

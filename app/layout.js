@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import './globals.css'
 import Script from 'next/script'
-import { Sofia_Sans } from '@next/font/google'
+import { Catamaran} from '@next/font/google'
 
-const sofia_Sans = Sofia_Sans({
+const catamaran = Catamaran({
   subsets: ['latin'],
   display: 'swap',
 })
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={sofia_Sans.className}>
+      <body className={catamaran.className}>
           <nav className='navbar'>
            
               <a href='/' className='leftSide'>
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
               <span className='bar'></span>
             </a>
             <div className='navbar-links'>
-              <ul className={sofia_Sans.className}>
+              <ul >
                 <li>
                   <a href='/'>Home</a>
                 </li>
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
             </div>
           </nav>
         {children}
-          <footer className={sofia_Sans.className}>
+          <footer className={catamaran.className}>
             <div className='footer-content'>
               <div className='top-footer'>
                 <h1 className='name-footer'>Café Zizou</h1>
